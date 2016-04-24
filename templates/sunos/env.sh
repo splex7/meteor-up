@@ -1,6 +1,6 @@
 #!/bin/bash
 export PORT=80
-export MONGO_URL=mongodb://127.0.0.1/<%= appName %>
+export MONGO_URL=mongodb://127.0.0.1/<%= dbName %>
 export ROOT_URL=http://localhost
 
 #it is possible to override above env-vars from the user-provided values
